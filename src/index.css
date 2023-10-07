@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./assets/fonts/HelveticaNowText-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Viberate';
+    src: url('./assets/fonts/VIBERATE.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-Regular.woff') format('woff')
+}
+
+@layer components {
+    .black-screen:before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9); /* Color negro con transparencia */
+        z-index: 9999; /* Coloca la pantalla negra por encima de otros elementos */
+        opacity: 0; /* Inicialmente invisible */
+        pointer-events: none; /* No bloquea clics en elementos subyacentes */
+        transition: opacity 0.5s; /* Agrega una transición suave de opacidad */
+      }
+}
