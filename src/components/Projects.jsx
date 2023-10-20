@@ -26,8 +26,8 @@ function Projects() {
     return (
         <section id='projects' className=' bg-black min-h-screen text-white flex flex-col'>
             <div className="">
-                <div className=' flex flex-col justify-center h-full text-center p-6'>
-                    <div className=' bg-transparent font-Montserrat text-3xl mt-4 underline underline-offset-8'>PROJECTS</div>
+                <div className=' flex flex-col pl-24 h-full p-6'>
+                    <div className=' bg-transparent font-Viberate text-6xl mt-4'>PRO-<br/>JECTS</div>
                 </div>
             </div>
             <div>
@@ -38,11 +38,11 @@ function Projects() {
                                 <div className=' md:w-1/2 group'>
                                     <a href={project.link} target='_blank' className='flex justify-center items-center'>
                                         <p className=' absolute opacity-0 group-hover:opacity-100 group-hover:text-white font-Montserrat underline underline-offset-8 text-xl tracking-wider'>Visit the site</p>
-                                        <img src={project.image} alt="" className=' group-hover:opacity-20 transition-opacity duration-300' />
+                                        <img src={project.image} alt="" className=' group-hover:opacity-20 h-72 transition-opacity duration-300' />
                                     </a>
                                 </div>
-                                <div className=' md:w-1/2 flex flex-col px-12 mt-2 mb-28'>
-                                    <h4 className=' mb-2 text-xl font-Montserrat font-bold'>
+                                <div className=' md:w-1/2 flex flex-col px-12 mt-2 mb-20'>
+                                    <h4 className=' mb-2 text-2xl font-Viberate'>
                                         {project.name}
                                     </h4>
                                     <p className=' w-3/4 font-Montserrat'>{project.description}</p>
@@ -55,7 +55,7 @@ function Projects() {
                                             )
                                         })}
                                     </ul>
-                                    <a href={project.gitHub} target='_blank' className=' w-fit bg-white rounded-md tracking-wider text-black font-Montserrat px-2 py-1 mt-4 font-bold'>GitHub Repository</a>
+                                    <a href={project.gitHub} target='_blank' className=' w-fit tracking-wider text-white font-Montserrat px-2 py-1 mt-6 border'>GitHub Repository</a>
                                 </div>
                             </div>
                         )
