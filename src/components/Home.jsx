@@ -5,7 +5,7 @@ import { BsGithub, BsLinkedin } from 'react-icons/bs'
 function Home() {
     return (
         <div id='home' className=' flex flex-row bg-my-background min-h-screen'>
-            <div className=' w-9/12'>
+            <div className=' w-8/12'>
                 <div className=' flex flex-col justify-center pl-24 h-full'>
                     <h1 className=' text-black font-Viberate text-text-huge'>Hello,</h1>
                     <p className=' text-black font-Viberate text-4xl font-medium'>I'm Makarena. A full stack developer, <br />and a creative mind.</p>
@@ -15,8 +15,8 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className='w-3/12'>
-                <img src={profile} className=' w-full pr-2 pt-20' alt="" />
+            <div className='w-3/12 mb-4'>
+                <img src={profile} className=' pt-20' alt="" />
             </div>
         </div>
     )
