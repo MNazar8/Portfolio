@@ -15,8 +15,8 @@ function Contact() {
         <p className=' font-Montserrat flex flex-col mt-4'>
           Thanks for stopping by! If you made it this far in this portfolio let me tell you that I'm thrilled to connect with you. Whether you're interested in working together, have questions about my experience, or just want to chat about technology, please feel free to get in touch. Let's build something amazing together. <br />I look forward to hearing from you soon!
         </p>
-        <div className=' py-6'>
-        <a href="./pdf/CV-EN.pdf" target='_blank' download="CV-EN.pdf" className=' bg-white px-4 py-2 text-black font-Montserrat font-semibold'>Download my CV</a>
+        <div className=' py-6 transform transition-transform hover:scale-105 flex origin-left w-fit'>
+          <a href="./pdf/CV-EN.pdf" target='_blank' download="CV-EN.pdf" className=' bg-white px-4 py-2 text-black font-Montserrat font-semibold'>Download my CV</a>
         </div>
         <div className=' flex'>
           <a href="mailto:nazarmakarena@gmail.com" className=' mr-2'><MdEmail className=' h-8 w-auto' /></a>
