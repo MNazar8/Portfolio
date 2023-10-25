@@ -1,6 +1,7 @@
 import React from 'react';
 import aroundTheWorld from '../assets/images/aroundTheWorld.png'
 import humanConet from '../assets/images/HumanConet.png'
+import library from '../assets/images/library.png'
 
 function Projects() {
 
@@ -16,6 +17,14 @@ function Projects() {
         {
             name: 'Human Conet',
             description: 'Web for a non-profit organization that protects territorial defenders in the fight against climate change.',
+            image: library,
+            gitHub: 'https://github.com/MNazar8/Library',
+            link: 'https://library-five-alpha.vercel.app/',
+            toolsUsed: ['React', 'Redux', 'TailwindCSS']
+        },
+        {
+            name: 'Library App',
+            description: 'Explore an extensive catalog of books and easily add new ones with this user-friendly book catalog app. Organize, discover, and build your personal library effortlessly.',
             image: humanConet,
             gitHub: 'https://github.com/kymi03/PF-HUMAN-CONECT',
             link: 'https://pf-human-conect.vercel.app/',
